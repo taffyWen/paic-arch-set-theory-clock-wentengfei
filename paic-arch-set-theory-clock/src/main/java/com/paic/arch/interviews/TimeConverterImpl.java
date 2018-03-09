@@ -75,6 +75,7 @@ public class TimeConverterImpl implements TimeConverter {
 			 }
 		}
 		
+		
 		return colorShow.toString();
 	}
 	
