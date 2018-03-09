@@ -78,10 +78,4 @@ public class TimeConverterImpl implements TimeConverter {
 		return colorShow.toString();
 	}
 	
-	public static void main(String[] args) {
-		TimeConverterImpl a = new TimeConverterImpl();
-		String aTime = "00:00:00";
-		String result = a.convertTime(aTime);
-		System.out.println(result);
-	}
 }
